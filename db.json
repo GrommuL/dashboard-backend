@@ -1,60 +1,19 @@
 {
-  "users": [],
-  "bookings": [
+  "users": [
     {
       "id": 1,
-      "createdAt": 1695362614524,
-      "startDate": "2023-10-17T00:00:00.000",
-      "endDate": "2023-10-24T00:00:00.000",
-      "cabinId": 1,
-      "guestId": 2,
-      "hasBreakfast": true,
-      "observations": "I have a gluten allergy and would like to request a gluten-free breakfast.",
-      "isPaid": false,
-      "cabinPrice": 250,
-      "extraPrice": 40,
-      "totalPrice": 290,
-      "status": "unconfirmed",
-      "numGuests": 1,
-      "numNights": 4
-    },
-    {
-      "id": 2,
-      "createdAt": 1695362614524,
-      "startDate": "2023-09-24T00:00:00.000",
-      "endDate": "2023-10-04T00:00:00.000",
-      "cabinId": 1,
-      "guestId": 3,
-      "hasBreakfast": true,
-      "observations": "",
-      "isPaid": true,
-      "cabinPrice": 250,
-      "extraPrice": 0,
-      "totalPrice": 250,
-      "status": "checked-out",
-      "numGuests": 2,
-      "numNights": 5
-    },
-    {
-      "id": 3,
-      "createdAt": 1695362614524,
-      "startDate": "2023-10-29T00:00:00.000",
-      "endDate": "2023-11-04T00:00:00.000",
-      "cabinId": 1,
-      "guestId": 4,
-      "hasBreakfast": false,
-      "observations": "",
-      "isPaid": false,
-      "cabinPrice": 250,
-      "extraPrice": 20,
-      "totalPrice": 270,
-      "status": "unconfirmed",
-      "numGuests": 2,
-      "numNights": 3
-    },
+      "fullName": "John Smith",
+      "email": "test@test.test",
+      "password": "qweqwe!Q123",
+      "confirmPassword": "qweqwe!Q123",
+      "createdAt": 1700300281756,
+      "modifiedAt": 1700300281756
+    }
+  ],
+  "bookings": [
     {
       "id": 4,
-      "createdAt": 1695362614524,
+      "createdAt": 1693526400000,
       "startDate": "2023-09-02T00:00:00.000",
       "endDate": "2023-09-18T00:00:00.000",
       "cabinId": 2,
@@ -63,15 +22,15 @@
       "observations": "",
       "isPaid": true,
       "cabinPrice": 350,
-      "extraPrice": 50,
-      "totalPrice": 400,
+      "extraPrice": 150,
+      "totalPrice": 500,
       "status": "checked-out",
       "numGuests": 2,
       "numNights": 4
     },
     {
       "id": 5,
-      "createdAt": 1695362614524,
+      "createdAt": 1693612800000,
       "startDate": "2023-11-01T00:00:00.000",
       "endDate": "2023-11-04T00:00:00.000",
       "cabinId": 2,
@@ -80,15 +39,15 @@
       "observations": "",
       "isPaid": true,
       "cabinPrice": 350,
-      "extraPrice": 40,
-      "totalPrice": 390,
+      "extraPrice": 240,
+      "totalPrice": 590,
       "status": "confirmed",
       "numGuests": 2,
       "numNights": 4
     },
     {
       "id": 6,
-      "createdAt": 1695362614524,
+      "createdAt": 1693699200000,
       "startDate": "2023-11-19T00:00:00.000",
       "endDate": "2023-12-04T00:00:00.000",
       "cabinId": 2,
@@ -105,7 +64,7 @@
     },
     {
       "id": 7,
-      "createdAt": 1695362614524,
+      "createdAt": 1693785600000,
       "startDate": "2023-09-22T00:00:00.000",
       "endDate": "2023-09-27T00:00:00.000",
       "cabinId": 3,
@@ -114,15 +73,15 @@
       "observations": "",
       "isPaid": true,
       "cabinPrice": 300,
-      "extraPrice": 40,
-      "totalPrice": 340,
+      "extraPrice": 140,
+      "totalPrice": 440,
       "status": "checked-out",
       "numGuests": 4,
       "numNights": 7
     },
     {
       "id": 8,
-      "createdAt": 1695362614524,
+      "createdAt": 1693872000000,
       "startDate": "2023-10-15T00:00:00.000",
       "endDate": "2023-10-17T00:00:00.000",
       "cabinId": 3,
@@ -139,7 +98,7 @@
     },
     {
       "id": 9,
-      "createdAt": 1695362614524,
+      "createdAt": 1693958400000,
       "startDate": "2023-10-03T00:00:00.000",
       "endDate": "2023-10-06T00:00:00.000",
       "cabinId": 3,
@@ -156,7 +115,7 @@
     },
     {
       "id": 10,
-      "createdAt": 1695362614524,
+      "createdAt": 1694044800000,
       "startDate": "2023-10-13T00:00:00.000",
       "endDate": "2023-10-25T00:00:00.000",
       "cabinId": 4,
@@ -165,15 +124,15 @@
       "observations": "",
       "isPaid": true,
       "cabinPrice": 500,
-      "extraPrice": 40,
-      "totalPrice": 540,
+      "extraPrice": 340,
+      "totalPrice": 840,
       "status": "checked-out",
       "numGuests": 4,
       "numNights": 3
     },
     {
       "id": 11,
-      "createdAt": 1695362614524,
+      "createdAt": 1694131200000,
       "startDate": "2023-10-29T00:00:00.000",
       "endDate": "2023-11-03T00:00:00.000",
       "cabinId": 4,
@@ -190,7 +149,7 @@
     },
     {
       "id": 12,
-      "createdAt": 1695362614524,
+      "createdAt": 1694217600000,
       "startDate": "2023-11-04T00:00:00.000",
       "endDate": "2023-11-05T00:00:00.000",
       "cabinId": 4,
@@ -207,7 +166,7 @@
     },
     {
       "id": 13,
-      "createdAt": 1695362614524,
+      "createdAt": 1694304000000,
       "startDate": "2023-10-31T00:00:00.000",
       "endDate": "2023-11-07T00:00:00.000",
       "cabinId": 5,
@@ -216,15 +175,15 @@
       "observations": "",
       "isPaid": false,
       "cabinPrice": 350,
-      "extraPrice": 40,
-      "totalPrice": 390,
+      "extraPrice": 140,
+      "totalPrice": 490,
       "status": "unconfirmed",
       "numGuests": 5,
       "numNights": 4
     },
     {
       "id": 14,
-      "createdAt": 1695362614524,
+      "createdAt": 1694390400000,
       "startDate": "2023-10-11T00:00:00.000",
       "endDate": "2023-10-13T00:00:00.000",
       "cabinId": 5,
@@ -233,15 +192,15 @@
       "observations": "",
       "isPaid": true,
       "cabinPrice": 350,
-      "extraPrice": 0,
-      "totalPrice": 350,
+      "extraPrice": 110,
+      "totalPrice": 460,
       "status": "checked-out",
       "numGuests": 4,
       "numNights": 7
     },
     {
       "id": 15,
-      "createdAt": 1695362614524,
+      "createdAt": 1694476800000,
       "startDate": "2023-10-13T00:00:00.000",
       "endDate": "2023-10-16T00:00:00.000",
       "cabinId": 5,
@@ -251,7 +210,6 @@
       "isPaid": true,
       "cabinPrice": 350,
       "extraPrice": 0,
-
       "totalPrice": 350,
       "status": "checked-in",
       "numGuests": 6,
@@ -259,7 +217,7 @@
     },
     {
       "id": 16,
-      "createdAt": 1695362614524,
+      "createdAt": 1694563200000,
       "startDate": "2023-10-17T00:00:00.000",
       "endDate": "2023-10-28T00:00:00.000",
       "cabinId": 6,
@@ -276,7 +234,7 @@
     },
     {
       "id": 17,
-      "createdAt": 1695362614524,
+      "createdAt": 1694649600000,
       "startDate": "2023-10-01T00:00:00.000",
       "endDate": "2023-10-08T00:00:00.000",
       "cabinId": 6,
@@ -293,7 +251,7 @@
     },
     {
       "id": 18,
-      "createdAt": 1695362614524,
+      "createdAt": 1694736000000,
       "startDate": "2023-10-13T00:00:00.000",
       "endDate": "2023-10-16T00:00:00.000",
       "cabinId": 6,
@@ -307,110 +265,6 @@
       "status": "checked-out",
       "numGuests": 6,
       "numNights": 4
-    },
-    {
-      "id": 19,
-      "createdAt": 1695362614524,
-      "startDate": "2023-11-03T00:00:00.000",
-      "endDate": "2023-11-09T00:00:00.000",
-      "cabinId": 7,
-      "guestId": 20,
-      "hasBreakfast": false,
-      "observations": "",
-      "isPaid": false,
-      "cabinPrice": 600,
-      "extraPrice": 0,
-      "totalPrice": 600,
-      "status": "unconfirmed",
-      "numGuests": 8,
-      "numNights": 4
-    },
-    {
-      "id": 20,
-      "createdAt": 1695362614524,
-      "startDate": "2023-11-26T00:00:00.000",
-      "endDate": "2023-12-06T00:00:00.000",
-      "cabinId": 7,
-      "guestId": 21,
-      "hasBreakfast": true,
-      "observations": "",
-      "isPaid": true,
-      "cabinPrice": 600,
-      "extraPrice": 0,
-
-      "totalPrice": 600,
-      "status": "confirmed",
-      "numGuests": 7,
-      "numNights": 3
-    },
-    {
-      "id": 21,
-      "createdAt": 1695362614524,
-      "startDate": "2023-11-18T00:00:00.000",
-      "endDate": "2023-11-23T00:00:00.000",
-      "cabinId": 7,
-      "guestId": 22,
-      "hasBreakfast": true,
-      "observations": "",
-      "isPaid": true,
-      "cabinPrice": 600,
-      "extraPrice": 0,
-
-      "totalPrice": 600,
-      "status": "confirmed",
-      "numGuests": 6,
-      "numNights": 2
-    },
-    {
-      "id": 22,
-      "createdAt": 1695362614524,
-      "startDate": "2023-10-12T00:00:00.000",
-      "endDate": "2023-10-17T00:00:00.000",
-      "cabinId": 8,
-      "guestId": 1,
-      "hasBreakfast": true,
-      "observations": "My wife has a gluten allergy so I would like to request a gluten-free breakfast if possible",
-      "isPaid": true,
-      "cabinPrice": 1400,
-      "extraPrice": 40,
-      "totalPrice": 1440,
-      "status": "checked-out",
-      "numGuests": 9,
-      "numNights": 2
-    },
-    {
-      "id": 23,
-      "createdAt": 1695362614524,
-      "startDate": "2023-10-17T00:00:00.000",
-      "endDate": "2023-10-22T00:00:00.000",
-      "cabinId": 8,
-      "guestId": 23,
-      "hasBreakfast": true,
-      "observations": "I am celebrating my anniversary, can you arrange for any special amenities or decorations?",
-      "isPaid": true,
-      "cabinPrice": 1400,
-      "extraPrice": 0,
-      "totalPrice": 1400,
-      "status": "checked-in",
-      "numGuests": 10,
-      "numNights": 1
-    },
-    {
-      "id": 24,
-      "createdAt": 1695362614524,
-      "startDate": "2023-10-27T00:00:00.000",
-      "endDate": "2023-10-30T00:00:00.000",
-      "cabinId": 8,
-      "guestId": 24,
-      "hasBreakfast": false,
-      "observations": "",
-      "isPaid": true,
-      "cabinPrice": 1400,
-      "extraPrice": 200,
-      "totalPrice": 1600,
-      "status": "confirmed",
-      "numGuests": 7,
-      "numNights": 4
     }
   ],
   "cabins": [
@@ -422,7 +276,8 @@
       "discount": 0,
       "image": "https://cdn.pixabay.com/photo/2022/11/06/10/15/ai-generated-7573692_960_720.jpg",
       "description": "Discover the ultimate luxury getaway for couples in the cozy wooden cabin 001. Nestled in a picturesque forest, this stunning cabin offers a secluded and intimate retreat. Inside, enjoy modern high-quality wood interiors, a comfortable seating area, a fireplace and a fully-equipped kitchen. The plush king-size bed, dressed in fine linens guarantees a peaceful nights sleep. Relax in the spa-like shower and unwind on the private deck with hot tub.",
-      "createdAt": 1696667396829
+      "createdAt": 1696667396829,
+      "modifiedAt": 1699279476786
     },
     {
       "id": 2,
@@ -432,7 +287,8 @@
       "discount": 25,
       "image": "https://global.discourse-cdn.com/sketchup/original/3X/1/1/110168d264759fbfca742a93168cf7c4b0dd6703.jpeg",
       "description": "Escape to the serenity of nature and indulge in luxury in our cozy cabin 002. Perfect for couples, this cabin offers a secluded and intimate retreat in the heart of a picturesque forest. Inside, you will find warm and inviting interiors crafted from high-quality wood, a comfortable living area, a fireplace and a fully-equipped kitchen. The luxurious bedroom features a plush king-size bed and spa-like shower. Relax on the private deck with hot tub and take in the beauty of nature.",
-      "createdAt": 1696667396829
+      "createdAt": 1696667396829,
+      "modifiedAt": 1699281545071
     },
     {
       "id": 3,
@@ -507,8 +363,8 @@
     },
     {
       "id": 2,
-      "fullName": "Jonatan Johansson",
-      "email": "jonatan@example.com",
+      "fullName": "Michael Johansson",
+      "email": "michaeljonatan@example.com",
       "nationality": "Finland",
       "nationalID": "9374074454",
       "countryFlag": "https://flagcdn.com/fi.svg",
@@ -541,7 +397,6 @@
       "countryFlag": "https://flagcdn.com/us.svg",
       "createdAt": 1695362616324
     },
-
     {
       "id": 5,
       "fullName": "Emma Watson",
@@ -765,8 +620,9 @@
       "minBookingLength": 3,
       "maxBookingLength": 90,
       "maxGuestsPerBooking": 8,
-      "breakfastPrice": 20,
-      "createdAt": 1695362614524
+      "breakfastPrice": 25,
+      "createdAt": 1695362614524,
+      "modifiedAt": 1699771199493
     }
   ]
 }
